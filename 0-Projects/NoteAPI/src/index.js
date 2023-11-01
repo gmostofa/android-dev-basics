@@ -19,7 +19,7 @@ app.use("/note", noteRouter);
 
 
 app.get("/", (req,res) =>{
-    res.send("fuck you");
+    res.status(200).send({message : "Hello there!"});
 });
 
 
